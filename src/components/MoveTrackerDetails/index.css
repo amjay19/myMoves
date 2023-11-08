@@ -35,3 +35,8 @@
   border-radius: 5px;
   color: #fff;
 }
+
+.inventory-heading {
+  display: flex;
+  justify-content: space-between;
+}

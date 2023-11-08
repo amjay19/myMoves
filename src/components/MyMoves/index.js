@@ -87,6 +87,9 @@ class MyMoves extends Component {
     </div>
   )
 
+  // failureView
+  failureView = () => <h1>Failure to load</h1>
+
   getRenderViews = () => {
     const {apiStatus} = this.state
 
