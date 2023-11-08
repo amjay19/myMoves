@@ -1,0 +1,26 @@
+.main-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.profile-section {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.profile-section-list {
+  width: 100%;
+}
+
+.profile-section-list-item {
+  display: flex;
+
+  column-gap: 20px;
+
+  align-items: center;
+}
+
+.profile-side-icon {
+  width: 22px;
+  height: 22px;
+}
